@@ -111,4 +111,10 @@ end)
     end) 
 end
   	end    
+})Tab:AddButton({
+	Name = "ADMIN",
+	Callback = function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+ 
+  	end    
 })
